@@ -1,0 +1,31 @@
+
+button.criptografar {
+    color:red;
+   
+}
+
+button.descriptografar{
+    color: blue;
+   
+}
+
+button.copiar {
+    color: green;
+   
+}
+
+p {
+    color: gray;
+   
+}
+
+img {
+    display: flex;
+    
+}
+
+input {
+    display: flex;
+    
+}
+

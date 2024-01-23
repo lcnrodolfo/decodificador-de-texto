@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+</head>
+<body>
+    <section class="alura-section">
+        <img src="./img/aluraLogo.png" alt="Logo da Alura" class="alura-img">
+      </section>
+      <main>
+        
+        <aside>
+          <p class="alert-text"><img src="./img/iconAlerta.svg" alt="Alerta" class="alert-img">Apenas letras minúsculas e sem acento</p>
+          <button onclick="encrypt(document.getElementById('input').value)" class="btn criptografar">Criptografar</button>
+          <button onclick="decrypt(document.getElementById('input').value)" class="btn descriptografar">Descriptografar</button>
+        </aside>
+      </main>
+      <section class="messages">
+        <img src="./img/imagemlupa.svg" alt="Pessoa com uma lupa olhando" class="img disable">
+        <h1 class="advice-title disable">Nenhuma mensagem encontrada</h1>
+        <p class="advice-text disable">Digite um texto que você deseje criptografar ou descriptografar</p>
+        <p class="result-text"></p>
+        <button class="btn white enable copy" onclick="copy(document.querySelector('.result-text').innerHTML)">Copiar</button>
+      </section>
+         
+<script src="app.js"></script>
+</body>
+</html>
